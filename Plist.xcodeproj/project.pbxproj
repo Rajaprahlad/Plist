@@ -14,6 +14,7 @@
 		A73CEA0A1E258FEB005B4EDC /* Plist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A73CEA081E258FEB005B4EDC /* Plist.xcdatamodeld */; };
 		A73CEA0C1E258FEB005B4EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73CEA0B1E258FEB005B4EDC /* Assets.xcassets */; };
 		A73CEA0F1E258FEB005B4EDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73CEA0D1E258FEB005B4EDC /* LaunchScreen.storyboard */; };
+		A73CEA171E259233005B4EDC /* random.plist in Resources */ = {isa = PBXBuildFile; fileRef = A73CEA161E259233005B4EDC /* random.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A73CEA0B1E258FEB005B4EDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A73CEA0E1E258FEB005B4EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A73CEA101E258FEB005B4EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A73CEA161E259233005B4EDC /* random.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = random.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				A73CEA051E258FEB005B4EDC /* Main.storyboard */,
 				A73CEA0B1E258FEB005B4EDC /* Assets.xcassets */,
 				A73CEA0D1E258FEB005B4EDC /* LaunchScreen.storyboard */,
+				A73CEA161E259233005B4EDC /* random.plist */,
 				A73CEA101E258FEB005B4EDC /* Info.plist */,
 				A73CEA081E258FEB005B4EDC /* Plist.xcdatamodeld */,
 				A73CE9FC1E258FEB005B4EDC /* Supporting Files */,
@@ -144,6 +147,7 @@
 				A73CEA0F1E258FEB005B4EDC /* LaunchScreen.storyboard in Resources */,
 				A73CEA0C1E258FEB005B4EDC /* Assets.xcassets in Resources */,
 				A73CEA071E258FEB005B4EDC /* Main.storyboard in Resources */,
+				A73CEA171E259233005B4EDC /* random.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,14 +16,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.label.text = @"Click the button below for random joke";
+    
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)buttonClicked:(id)sender {
+    
+    
+    NSString *myString = [[NSBundle mainBundle] pathForResource:@"random" ofType:@"plist"];
+    
+    NSDictionary *mydict = [[NSDictionary alloc] initWithContentsOfFile:myString];
+    
+    NSMutableArray*myarray = [mydict valueForKey:@"Joke"];
+    
+    int myint = arc4random() % [myarray count];
+    
+    NSString *secondstring = [myarray objectAtIndex:myint];
+    
+    self.label.text = [NSString stringWithFormat:@"%@",secondstring];
+    
+    NSLog(@"Random joke is %@", secondstring);
 }
-
-
 @end
